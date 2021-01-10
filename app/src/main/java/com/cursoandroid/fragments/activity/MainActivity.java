@@ -25,7 +25,6 @@ public class MainActivity extends AppCompatActivity {
         buttonContato = findViewById(R.id.buttonContato);
         buttonConversa = findViewById(R.id.buttonConversa);
 
-
         // Retirar a sombra (elevação) da ActionBar
         getSupportActionBar().setElevation(0);
 

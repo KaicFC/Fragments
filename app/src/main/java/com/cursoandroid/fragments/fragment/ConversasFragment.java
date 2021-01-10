@@ -22,14 +22,13 @@ public class ConversasFragment extends Fragment {
         // Required empty public constructor
     }
 
-
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         View view = inflater.inflate(R.layout.fragment_conversas, container, false);
 
-        textConversa = view.findViewById(R.id.buttonConversa);
+        textConversa = view.findViewById(R.id.textConversa);
         textConversa.setText("Lista de conversas");
 
         return view;
